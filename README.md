@@ -12,6 +12,8 @@ https://livox-wiki-cn.readthedocs.io/zh-cn/latest/tutorials/other_product/timest
 
 Q: 如果电脑中有两个进程需要访问两台不同的激光雷达，调用这个Livox-SDK会出现端口占用的情况这个怎么解决
 
+未解决
+
 Q: 在使用两台雷达时，roslaunch livox_ros_driver livox_lidar_rviz.launch, 在rviz中看到来自两个雷达的点云交替的闪，不能一帧点云包含两个雷达的数据，
 请问如何拼接俩台或多台设备的数据？
 
