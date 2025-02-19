@@ -8,7 +8,7 @@ Q: 不使用Livox hub可以实现多台雷达数据同步采集吗(多台雷达�
 
 A: 不需要适用Livox Hub(当前已停产) 也可以将多台雷达的数据传输到同一个电脑中，只需要将雷达设置在同一个网段下，并和电脑同时连接到一个交换机或者路由器上即可。多雷达数据采集可通过ros driver实现，启动livox lidar launch文件，默认配置可连接网段内全部雷达，如果只需要连接其中一两个，具体参考ros驱动的config配置。
 
-https://livox-wiki-cn.readthedocs.io/zh-cn/latest/tutorials/other_product/timestamp_sychronization.html
+时间同步: https://livox-wiki-cn.readthedocs.io/zh-cn/latest/tutorials/other_product/timestamp_sychronization.html
 
 Q: 如果电脑中有两个进程需要访问两台不同的激光雷达，调用这个Livox-SDK会出现端口占用的情况这个怎么解决
 
