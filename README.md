@@ -28,3 +28,9 @@ A: 多台雷达需时间同步才可以同步显示.参考上面链接.
 Q: 两个mid360雷达在同一网络下，不同主机，不能同时运行ros driver程序,主机1启动driver程序后，主机2在启动程序时，会造成主机1程序死掉。雷达ip分别为：192.168.1.124和192.168.1.143主机ip分别为：192.168.1.191和192.168.1.192
 
 https://github.com/Livox-SDK/livox_ros_driver2/issues/140
+
+https://github.com/Livox-SDK/livox_ros_driver2/issues/102
+
+Q: 使livox雷达与Ubuntu18.04电脑进行无线通信
+
+https://blog.csdn.net/m0_61281991/article/details/124439612
