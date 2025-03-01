@@ -25,7 +25,8 @@ A: 多台雷达需时间同步才可以同步显示.参考上面链接.
 
 参考: https://blog.csdn.net/qq_33912182/article/details/140353115
 
-注:多激光雷达外参自动标定算法开源 https://www.livoxtech.com/cn/showcase/8
+注:多激光雷达外参自动标定算法开源(官方) https://www.livoxtech.com/cn/showcase/8
+另一个作者:https://github.com/GDUT-Kyle/MULTI_LIDARs_CALIBRATE
 
 Q: 两个mid360雷达在同一网络下，不同主机，不能同时运行ros driver程序,主机1启动driver程序后，主机2在启动程序时，会造成主机1程序死掉。雷达ip分别为：192.168.1.124和192.168.1.143主机ip分别为：192.168.1.191和192.168.1.192
 
